@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/h8"
-    android:alpha="0.9"
-    tools:context="com.gdgandroidbolivia.studyjam_tarea_1.MainActivity">
+    android:background="#fff"
+    android:alpha="0.9">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="2dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,39 +19,38 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
                 android:text="Dubs"
-                android:textSize="20sp"
                 android:textColor="#b7b3b3"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginRight="5dp"/>
+                android:textSize="20sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Music"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:textColor="#ef2929"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="50dp"
-                android:layout_marginRight="5dp"/>
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Music"
+                android:textColor="#ef2929"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MySongs"
-                android:textSize="20sp"
-                android:textColor="#b7b3b3"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="40dp"
-                android:layout_marginRight="20dp"/>
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:text="MySongs"
+                android:textColor="#b7b3b3"
+                android:textSize="20sp" />
         </LinearLayout>
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="365dp">
-            <LinearLayout
+        <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+            android:layout_marginTop="10dp">
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -88,192 +86,181 @@
                         android:scaleType="centerInside"
                         android:src="@drawable/m"/>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_width="200dp"
+                    android:layout_width="170dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
-                        android:text="Still"
-                        android:textColor="#252222"
-                        android:layout_marginLeft="20dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Still"
+                        android:textColor="#252222" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
                         android:text="Mechine"
-                        android:textColor="#252222"
-                        android:layout_marginLeft="20dp"/>
-                    <view
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:background="#ffff"
-                        android:layout_marginTop="5dp"></view>
+                        android:textColor="#252222" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Citizen"
-                        android:textColor="#252222"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="27dp"
-                        android:layout_marginLeft="20dp"/>
+                        android:text="Citizen"
+                        android:textColor="#252222" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
                         android:text="Rose"
-                        android:textColor="#252222"
-                        android:layout_marginLeft="20dp"/>
-                    <view
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:background="#ffff"
-                        android:layout_marginTop="5dp"></view>
+                        android:textColor="#252222" />
+
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="30dp"
-                        android:layout_marginLeft="20dp"
-                        android:textColor="#f13636"
-                        android:text="Terminal"/>
+                        android:text="Terminal"
+                        android:textColor="#f13636" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
                         android:text="Jack"
-                        android:textColor="#f13636"
-                        android:layout_marginLeft="20dp"/>
-                    <view
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:background="#ffff"
-                        android:layout_marginTop="5dp"></view>
+                        android:textColor="#f13636" />
+
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
-                        android:layout_marginLeft="20dp"
                         android:text="Winter"
-                        android:textColor="#252222"/>
+                        android:textColor="#252222" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Developers Voice"
-                        android:textColor="#252222"
-                        android:layout_marginLeft="20dp"/>
-                    <view
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:background="#ffff"
-                        android:layout_marginTop="5dp"></view>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Source"
-                        android:textColor="#252222"
                         android:layout_marginLeft="20dp"
-                        android:layout_marginTop="25dp"/>
+                        android:text="Developers Voice"
+                        android:textColor="#252222" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="25dp"
+                        android:text="Source"
+                        android:textColor="#252222" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
                         android:text="Bon Autumn"
-                        android:textColor="#252222"
-                        android:layout_marginLeft="20dp"/>
-                    <view
-                        android:layout_width="match_parent"
-                        android:layout_height="2dp"
-                        android:background="#ffff"
-                        android:layout_marginTop="5dp"></view>
+                        android:textColor="#252222" />
+
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="0dp">
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/play"
                         android:layout_marginTop="15dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginRight="10dp"/>
+                        android:src="@drawable/play" />
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/play"
                         android:layout_marginTop="20dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginRight="10dp"/>
+                        android:src="@drawable/play" />
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/play"
                         android:layout_marginTop="30dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginRight="10dp"/>
+                        android:src="@drawable/play" />
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/play"
                         android:layout_marginTop="30dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginRight="10dp"/>
+                        android:src="@drawable/play" />
+
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/play"
                         android:layout_marginTop="30dp"
-                        android:layout_marginLeft="30dp"
-                        android:layout_marginRight="10dp"/>
+                        android:src="@drawable/play" />
                 </LinearLayout>
             </LinearLayout>
 
-        </ScrollView>
+
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="70dp"
-            android:orientation="horizontal">
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
             <ImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:src="@drawable/fondo4"
-                android:layout_marginLeft="40dp"/>
+                android:layout_marginLeft="0dp"/>
             <ImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:src="@drawable/h3"
-                android:layout_marginLeft="50dp"/>
+                android:layout_marginLeft="30dp"/>
             <ImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:src="@drawable/fondo2"
-                android:layout_marginLeft="50dp"/>
+                android:layout_marginLeft="30dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_gravity="center">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hot Trancks"
                 android:textColor="#252222"
-                android:layout_marginLeft="40dp"/>
+                android:layout_marginLeft="0dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Dream"
                 android:textColor="#252222"
-                android:layout_marginLeft="60dp"/>
+                android:layout_marginLeft="50dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="G.Funk"
                 android:textColor="#252222"
-                android:layout_marginLeft="80dp"/>
+                android:layout_marginLeft="50dp"/>
 
         </LinearLayout>
     </LinearLayout>
 
 
-
+    </ScrollView>
 </LinearLayout>
